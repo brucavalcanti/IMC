@@ -42,7 +42,7 @@ public class ResultadoActivity extends AppCompatActivity {
 
             Double imc = peso/pow(altura,2);
 
-            textDiagnostico.setText("O Valor do seu Imc é  " + df.format(imc) + " seu diagnóstico é : ");
+            textDiagnostico.setText("O Valor do seu Imc é  " + df.format(imc) + " seu diagnóstico é: ");
 
             if(imc < 18.5)
             {
